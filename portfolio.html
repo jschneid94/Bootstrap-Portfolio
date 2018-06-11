@@ -11,7 +11,41 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <h1>Hello, world!</h1>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+
+      <!-- Creates a dropdown button icon when the navbar collapses -->
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+      <!-- My Name Logo -->
+      <span class="navbar-text">Jordan Schneider</span>
+
+      <!-- Collapses the navbar into a dropdown menu when screen size reaches medium -->
+      <div class="collapse navbar-collapse" id="collapse_target">
+        <ul class="navbar-nav ml-auto">
+
+          <!--About Me-->
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About Me</a>
+          </li>
+          
+          <!-- Portfolio -->
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Portfolio</a>
+          </li>
+
+          <!-- Contact -->
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+
+        </ul>
+      </div>
+
+    </nav>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
