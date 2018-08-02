@@ -57,29 +57,24 @@
     </nav>
 
     <!-- Image Bar -->
-    <div class="container-fluid px-0">
+    <div class="container-fluid px-0 mb-3">
       <img src="assets/images/jumbotron-background.jpg" 
         class="img-fluid d-none d-md-block" 
         alt="Riwaka Resurgence"
         style="opacity: 0.8">
     </div>
 
-
-    <br />
-
     <!--Container for page content-->
-    <div class="container clearfix">
+    <div class="container clearfix mb-3">
       <div class="row justify-content-around">
 
         <!--About Me section-->
-        <div class="col-md-7 mt-2 mb-2 border rounded">
+        <div class="col-md-7 mt-2 mb-3 border rounded">
           
           <!--About Me Header-->
-          <div class="row border-bottom bg-dark text-light">
-            <h2 class="mx-auto">About Me</h2>
+          <div class="row border-bottom bg-dark text-light mb-3">
+            <h2 class="mx-auto py-2">The Developer</h2>
           </div>
-
-          <br />
           
           <!--About Me Content-->
           <div class="row">
@@ -99,10 +94,6 @@
                 I am fairly new to the tech sphere having only taught myself HTML, CSS, and some Javascript, but I am excited to see how this boot camp will push me to ascend new heights and learn more technologies. This journey has not always been easy and I constantly find myself feeling both capable and incapable at the same time. Hence, the coder's dilemma! However, there is a certain comfortability in being uncomfortable. This past year there were numerous times I went outside of my comfort zone, and it took me to places I would've never dreamed of; for seven weeks I traveled through the lands of Middle Earth (or is it called New Zealand?), a few months later I was living in the jungle along the Carribean in Northern Colombia, and before that I was going to salsa and bachata dance lessons twice a week, learning new moves and constantly making new friends. This boot camp is just a new landscape not yet ventured, and I can't wait to see what I discover.
               </p>
 
-              <p>
-                When I'm not writing code and trying new things I don't totally understand, you can find me at home singing in my bathroom, simulating a DnD campaign in Divinity: Original Sin 2, or lifting weights at the gym. I am the youngest of six half-siblings and I have been an uncle since day one (I believe I am up to three nieces, five nephews, and one to be determined!). I like to think I am a fish out of water, as I have enjoyed professional swimming along with lifeguarding for around eight years. Finally, I am big fan of anime and manga; so much so that I have inked two images from my favorite series, One Piece, onto my right arm and shoulder.
-              </p>
-
             </div>
                     
           </div>
@@ -115,25 +106,27 @@
         <div class="col-md-4 col-sm-12 mt-2 mb-auto border">
 
           <!-- Sidebar Header -->
-          <div class="row border-bottom bg-dark text-light">
-            <h2 class="mx-auto">Sidebar</h2>
+          <div class="row border-bottom bg-dark text-light mb-3">
+            <h2 class="mx-auto py-2">The Man</h2>
           </div>
 
+          <!-- Sidebar Content -->
           <div class="row">
+
             <div class="col-md-12">
-              <p class="mx-auto lead font-weight-light">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p class="mx-auto font-weight-light">
+                When I'm not writing code and trying new things I don't totally understand, you can find me at home singing in my bathroom, simulating a DnD campaign in Divinity: Original Sin 2, or lifting weights at the gym. I am the youngest of six half-siblings and I have been an uncle since day one (I believe I am up to three nieces, five nephews, and one to be determined!). I like to think I am a fish out of water, as I have enjoyed professional swimming along with lifeguarding for around eight years. Finally, I am big fan of anime and manga; so much so that I have inked two images from my favorite series, One Piece, onto my right arm and shoulder.
+              </p>
             </div>
+
           </div>
 
         </div>
-    
-
-    
+        <!-- Sidebar -->
+        
       </div>
     </div>
     <!-- Container (Close) -->
-   
 
     <br />
 
@@ -143,29 +136,37 @@
     <footer class="page-footer font-small special-color-dark pt-4 bg-dark">
 
       <!-- Footer Elements -->
-      <div class="container">
+      <div class="container-fluid">
 
-        <span class="float-left">
-          <button class="btn btn-md btn-dark">
-            <a class="text-light text-center" href="#">Back to Top</a>
-          </button>
-        </span>
-        
-      <span class="justify-content-center">
         <!-- Social buttons -->
         <ul class="list-unstyled list-inline text-center">
+
+          <!-- Email Button -->
+          <li class="list-inline-item">
+            <a class="btn-floating btn-lg btn-email mx-1" href="mailto:jschneid94@gmail.com">
+              <i class="fa fa-envelope"></i>
+            </a>
+          </li>
+
+          <!-- LinkedIn Button -->
           <li class="list-inline-item">
             <a class="btn-floating btn-lg mx-1" href="https://www.linkedin.com/in/jschneid94/" target="_blank">
               <i class="fa fa-linkedin"> </i>
             </a>
           </li>
+
+          <!-- GitHub Button -->
           <li class="list-inline-item">
             <a class="btn-floating btn-lg mx-1" href="https://github.com/jschneid94" target="_blank">
               <i class="fa fa-github"></i>
             </a>
           </li>
+
+          <!-- Back to Top Button -->
+          <a href="#" id="back-to-top" title="Back to top" class="float-right mr-5">&uarr;</a>
+
+
         </ul>
-      </span>
         <!-- Social buttons -->
 
       </div>
@@ -186,19 +187,18 @@
       </div>
     </footer>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-    <!-- JQuery -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- Bootstrap tooltips -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
     <!-- Bootstrap core JavaScript -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.4/js/mdb.min.js"></script>
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- app.js -->
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+
   </body>
 </html>
